@@ -1,0 +1,37 @@
+a {
+   text-decoration: none;
+   padding: 20px;
+   font-size: 40px;
+   display: inline-block;
+   color: black;
+}
+
+.first-link {
+   color: #000;
+}
+.first-link:hover {
+   color: blue;
+}
+.first-link:active {
+   color: red;
+}
+.first-link:visited {
+   color: green;
+}
+
+.second-link {
+   color: blue;
+}
+.second-link:hover {
+   color: red;
+}
+.second-link:active {
+   color: yellow;
+}
+.second-link:visited {
+   color: purple;
+}
+
+/* the point of this question is that when a link is visited once, the default
+behaviour of the browser is such that the hover and active colors will not 
+work anymore. */

@@ -1,0 +1,89 @@
+body {
+   font-weight: 900;
+   font-size: 20px;
+}
+
+.first-container {
+   background-color: #ddd;
+   border: 2px solid #888;
+   width: 60%;
+   margin: 10px auto;
+   text-align: center;
+}
+
+.first-container div {
+   display: inline-block;
+   padding: 5px;
+   margin: 5px;
+   width: 15px;
+   background-color: white;
+   border: 1px solid #333;
+}
+
+.second-container {
+   background-color: #ddd;
+   border: 2px solid #888;
+   width: 80%;
+   margin: 10px auto;
+   text-align: center;
+}
+
+.second-container div {
+   display: inline-block;
+   padding: 40px;
+   margin: 20px 10px;
+   background-color: white;
+   border: 1px solid #333;
+}
+
+.third-container {
+   background-color: #ddd;
+   border: 2px solid #888;
+   width: 90%;
+   margin: 10px auto;
+   text-align: center;
+}
+
+.third-container div {
+   display: inline-block;
+   padding: 70px;
+   margin: 30px 20px;
+   background-color: white;
+   border: 1px solid #333;
+}
+
+.first-container div:first-child,
+.second-container div:last-child,
+.third-container div:nth-child(2) {
+   color: blue;
+}
+
+.first-container div:nth-child(2),
+.first-container div:nth-child(3),
+.first-container div:nth-child(7),
+.first-container div:nth-child(8),
+.second-container div:first-child,
+.third-container div:first-child {
+   color: violet;
+}
+
+.first-container div:nth-child(4),
+.first-container div:nth-child(5),
+.first-container div:nth-child(6),
+.first-container div:nth-child(9) {
+   color: orange;
+}
+
+.third-container div:last-child {
+   color: green;
+}
+
+div:hover {
+   box-shadow: 0 0 10px 2px rgba(0, 140, 186, 0.6);
+   background-color: skyblue;
+}
+
+div div:hover {
+   transform: scale(1.08);
+   background-color: #ccc;
+}

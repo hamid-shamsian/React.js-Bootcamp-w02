@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Question 7</title>
+      <style>
+         li {
+            font-size: 20px;
+            margin: 20px 0;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>General sibling combinator(~ (tilde)) vs Child combinator(>) in css:</h1>
+      <ul>
+         <li>
+            ~ or General sibling combinator is placed between two selectors and will match all the occerences of second element that are following the first element (even if they dont appear
+            immediately after the first element) and are children of a same parent element.
+            <p>for example: (p ~ a) will select all anchor elements that are following a paragraph elemnt in a same parent element.</p>
+         </li>
+         <li>
+            &gt; or Child combinator also separates two selectors and will match all the elements the second selector points to that are only the direct child of first selector.
+            <p>for example: (p > a) will select all anchor elements that are direct children of paragraph elemnt</p>
+         </li>
+      </ul>
+   </body>
+</html>

@@ -1,0 +1,49 @@
+article {
+   position: relative;
+   width: 1000px;
+   height: 70vh;
+   background-image: url("bg-image.jpg");
+}
+
+header {
+   display: inline-block;
+   box-sizing: border-box;
+   text-align: center;
+   width: 40%;
+   color: #fff;
+   height: 100%;
+   background-color: rgba(0, 255, 0, 0.4);
+   padding: 40px;
+}
+
+.tagline {
+   text-align: left;
+   margin: 50px 0;
+}
+
+header p:last-of-type {
+   font-size: 25px;
+}
+
+button {
+   background-color: orange;
+   color: #fff;
+   width: 200px;
+}
+
+nav {
+   position: absolute;
+   top: 0;
+   left: 40%;
+}
+
+ul {
+   list-style-type: none;
+}
+
+li {
+   padding: 5px;
+   margin: 5px 10px;
+   display: inline-block;
+   background-color: yellow;
+}
